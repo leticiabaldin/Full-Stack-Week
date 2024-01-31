@@ -119,6 +119,7 @@ async function seedDatabase() {
           data: {
             name: service.name,
             description: service.description,
+            imageUrl: service.imageUrl,
             price: service.price,
             barbershop: {
               connect: {
